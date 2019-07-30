@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int age;
+	char ans;
+	
+	do
+	{
+		cout<<"請輸入你的年紀:"<<endl;
+		cin>>age;
+		 if(age<30)
+		  	cout<<"哈囉，年輕人"<<endl;
+		 else if(30<age<61)
+		 	cout<<"哈囉，成年人"<<endl;
+		 else 
+		 	cout<<"哈囉，老年人"<<endl;	   
+		 	
+		cout<<"要再輸入一次嗎?"<<endl;
+		cin>>ans; 
+	} 
+	while(ans='y'||'Y');
+	
+	system("pause");
+	return 0;
+	
+}
+ 
